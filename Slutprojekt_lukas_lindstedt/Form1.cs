@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 namespace Slutprojekt_lukas_lindstedt
 {
+    //Autor:lukas lindstedt
+    
     public partial class Form1 : Form
     {
         public Form1()
@@ -17,5 +19,11 @@ namespace Slutprojekt_lukas_lindstedt
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+
+
+        }
     }
 }
