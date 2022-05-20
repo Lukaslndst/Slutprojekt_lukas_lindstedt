@@ -1,1 +1,16 @@
 ﻿22:04:25	uppstart och koppling till github
+22:05:6		upptäckt hur svårt det är att göra de flesta klassiska spelen. ksk gör space invaders eller ngt idk
+22:05:9		spelet som ska göras är minesweper. en 2d lista kommer användas för att säga vart bomberna finns och
+			ger ett 1/0 värde. sedan när du klickar på en ruta ska rutans värde beräknas genom att addera bombnumret
+			på närliggande rutor. Listan har skapats och grafikdelen är påbörjad för att tidigt i projektet kunna
+			se hur väl systemet kommer funka.
+22:05:16	programerat in rutnät som funkar så att ett noll värde i listan ger en ruta men andra färden ger ingen
+			vilket senare kommer bli ett system där du trycker på en ruta så den "öppnas" vilket sen ger rutans
+			värde vilket antingen kommer vara bomb eller antalet närliggande bomber
+22:05:20	ett fullständig schema på hur programmet kommer funkgera. Muspekaren kommer att spåras och när man
+			klickar kommer kordinaten man står på byta värde. när kordinaten byter värde kommer rutan som är målad
+			där tas bort och "antalminor" värdet kommer visas. det värdet är beräknat från att addera rutans min värde
+			som finns i en annan lista som fylls i när spelet börjar med en for loop. hur många minor bestäms av hur
+			många gånger for loopen görs vilket avändaren skälv ska kunna skjustera som en form av svårighets grad slider.
+			för att starta spelet kommer det finnas en startknapp och en slider bredvid. båda ska vara placerade över panelen.
+
