@@ -13,4 +13,5 @@
 			som finns i en annan lista som fylls i när spelet börjar med en for loop. hur många minor bestäms av hur
 			många gånger for loopen görs vilket avändaren skälv ska kunna skjustera som en form av svårighets grad slider.
 			för att starta spelet kommer det finnas en startknapp och en slider bredvid. båda ska vara placerade över panelen.
-
+22:05:28-29	allt programerat enligt schemat. debug meny, timer, vinst och förlust skärm, start skärm och grafik har även
+			programerats.
