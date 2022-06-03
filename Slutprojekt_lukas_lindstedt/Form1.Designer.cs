@@ -42,9 +42,10 @@ namespace Slutprojekt_lukas_lindstedt
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel1.Location = new System.Drawing.Point(172, 77);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(481, 343);
+            this.panel1.Size = new System.Drawing.Size(320, 320);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
